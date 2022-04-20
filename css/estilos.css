@@ -1,0 +1,51 @@
+form{
+    width: 25%;
+    border: 1px solid grey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+label{
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+     margin-bottom: 20px;
+     padding: 10px;
+     width: 100%;
+     
+     box-sizing:border-box;
+     border: 1px solid #ccc;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    border: 2px solid #1668C4;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    background: #317abe;
+    border: 1px #072944;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(209, 83, 178);
+   
+}
+button:active{
+    background: rgb(168, 111, 26);
+   
+}
